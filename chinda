@@ -1,21 +1,3 @@
-def xoshnaw():
-  uuid = str(os.geteuid()) + str(os.getlogin())
-  id = "-".join(uuid)
-  print("\x1b[37;1mYOUR ID : "+id)
-  try:
-    httpCaht = requests.get("https://github.com/GoodboyC/cribs/blob/main/blade.txt").text
-    if id in httpCaht:
-      print("\033[1;92mYOUR ID IS ACTIVE...!")
-      msg = str(os.geteuid())
-      time.sleep(0.3)
-      pass
-    else:
-      print("\x1b[1;91mMESSAGE CHINDA (WhatsApp) TO ACTIVATE YOUR  ")
-      os.system('xdg-open https://wa.me/+2349067338953')
-      time.sleep(1)
-      sys.exit()
-  except:
-    sys.exit()
 
 import os
 try:
