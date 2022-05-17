@@ -1,1 +1,1 @@
-print: 'tool is under update'
+print('tool is under update')
