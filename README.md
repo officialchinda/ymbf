@@ -3,7 +3,7 @@
 
 ## Install
 ```bash
-git clone https://github.com/GoodboyC/ymbf
+git clone https://github.com/officialchinda/ymbf
 ```
 
 
